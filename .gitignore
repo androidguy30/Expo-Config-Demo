@@ -1,0 +1,5 @@
+node_modules
+plugins/expo-analytics-config-plugin/build
+android
+ios
+.expo
