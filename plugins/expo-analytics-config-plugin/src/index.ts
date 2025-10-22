@@ -2,14 +2,11 @@ import {
   ConfigPlugin,
   withProjectBuildGradle,
   withAppBuildGradle,
-  withAndroidManifest,
   withMainApplication,
-  withInfoPlist,
   withPodfile,
   withAppDelegate,
   withDangerousMod,
-  createRunOncePlugin,
-  AndroidConfig
+  createRunOncePlugin
 } from "@expo/config-plugins";
 import fs from "fs";
 import path from "path";
@@ -163,5 +160,5 @@ const withFirebaseAnalyticsPlugin: ConfigPlugin<Options> = (config, options) => 
   return config;
 };
 
-const pkg = "expo-analytics-config-plugin";
-export default createRunOncePlugin(withFirebaseAnalyticsPlugin, pkg, "0.1.2");
+const pkgName = "expo-analytics-config-plugin";
+export default createRunOncePlugin(withFirebaseAnalyticsPlugin, pkgName, "0.0.1");

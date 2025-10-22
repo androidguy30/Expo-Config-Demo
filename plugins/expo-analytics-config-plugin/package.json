@@ -1,6 +1,6 @@
 {
   "name": "expo-analytics-config-plugin",
-  "version": "0.1.2",
+  "version": "0.0.1",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
